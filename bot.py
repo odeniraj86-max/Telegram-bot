@@ -59,7 +59,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     elif query.data == "buy":
         await query.message.reply_text(
-            "💰 Pay ₹99/week\nUPI: yourupi@upi\n\nSend UTR after payment"
+            "💰 Pay ₹99/week\nUPI: nirajode@ptaxis\n\nSend UTR after payment"
         )
 
     elif query.data == "status":
